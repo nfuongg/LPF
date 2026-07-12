@@ -4,8 +4,8 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
-  logLevel: 'error', // Suppress warnings, only show errors
+
+  logLevel: 'info', // Suppress warnings, only show errors
   plugins: [
     react(),
   ],
